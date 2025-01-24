@@ -1,6 +1,6 @@
-from flask import flask, jsonify
+from flask import Flask, jsonify
 
-app = flask(__name__)
+app = Flask(__name__)
 
 # Root route
 @app.route("/", methods=["GET"])
