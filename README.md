@@ -2,7 +2,7 @@
 
 This guide outlines the steps to set up a Jenkins pipeline to build, test, and deploy a Python project. The pipeline pulls the code from Git, runs tests, and deploys it on a deployment server.
 
-## Prerequisites
+## Prerequisites 
 1. **Jenkins Setup**: Ensure Jenkins is installed and running.
 2. **SSH Agent Plugin**:
    - Navigate to **Dashboard** -> **Manage Jenkins** -> **Plugin Manager** -> **Available Plugins**.
